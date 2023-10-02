@@ -5,10 +5,12 @@ import Lunch from './Components/Lunch';
 import Dinner from './Components/Dinner';
 import Access from './Components/Access';
 import Introduction from './Components/Introduction';
+import Navbar from "./Components/Navbar"
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/Lunch" element={<Lunch />}></Route>
