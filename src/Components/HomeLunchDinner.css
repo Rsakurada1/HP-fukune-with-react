@@ -1,0 +1,32 @@
+.lunch-dinner{
+    writing-mode: vertical-rl;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-image: url('../fukune-photo/washi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.home-lunch{
+    width: 200px;
+}
+
+.lunch-dinner a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-lunch-image{
+    position: relative;
+    left: 400px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+}
+
+.home-lunch-p{
+    position: relative;
+    left: 350px;
+}

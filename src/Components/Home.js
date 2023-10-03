@@ -2,6 +2,7 @@ import React from 'react'
 import Slideshow from './Slideshow'
 import "./Home.css"
 import Footer from './Footer';
+import HomeLunchDinner from './HomeLunchDinner';
 
 const Home = () => {
   return (
@@ -19,12 +20,8 @@ const Home = () => {
       </p>
       </div>
     <Slideshow />
+    <HomeLunchDinner />
     <Footer />
-    <div>
-      <div className='lunch'>
-
-      </div>
-    </div>
     </div>
   )
 }
