@@ -20,6 +20,11 @@ const Home = () => {
       </div>
     <Slideshow />
     <Footer />
+    <div>
+      <div className='lunch'>
+
+      </div>
+    </div>
     </div>
   )
 }
