@@ -1,0 +1,22 @@
+.catch-p-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+  }
+  
+  .catch-p {
+    opacity: 0; /* 初めは完全に透明に */
+    transform: translateY(50px); /* 初めは少し下に移動 */
+    animation: fadeInUp 5s forwards; /* アニメーションの設定 */
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1; /* 完全に不透明に */
+      transform: translateY(0); /* 元の位置に */
+    }
+  }
