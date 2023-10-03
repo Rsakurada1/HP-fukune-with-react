@@ -1,0 +1,15 @@
+.Footer{
+    display: flex;
+    flex-direction: column;  /* 垂直方向に要素を並べる */
+    justify-content: center; /* 垂直方向の中央揃え */
+    align-items: center;     /* 水平方向の中央揃え */
+    position: relative;
+    top: -28px;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-image: url('../fukune-photo/washi2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+  }

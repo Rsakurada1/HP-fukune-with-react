@@ -1,3 +1,12 @@
+
+.top-div{
+    background-image: url('../fukune-photo/washi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 300px;
+}
+
+
 .catch-p-c {
     display: flex;
     justify-content: center;
@@ -12,6 +21,13 @@
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
+  }
+
+  .message {
+    position: relative;
+    left: 520px;
+    top: -30px;
+    width: 900px;
   }
   
   @keyframes fadeInUp {

@@ -18,14 +18,14 @@ const Slideshow = () => {
       setTimeout(() => {
         setCurrentIndex(nextIndex);
         setIsEntering(true);
-      }, 2000);  // Duration of fadeOut animation
-    }, 4000);  // Image display time
+      }, 2000); 
+    }, 4000);  
 
     return () => clearTimeout(timeoutId);
   }, [currentIndex]);
 
   return (
-    <div>
+    <div className='slide-div'>
       <img
         src={images[currentIndex]}
         alt="slideshow"
