@@ -66,6 +66,7 @@
 .zaseki-counter{
     max-width: 400px;
     max-height: 380px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
 }
 
 .counter{
