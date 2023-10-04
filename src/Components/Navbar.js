@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className='header'>
         <div className='storeNameDiv'>
             <h2 className='storeName'>築地すし処 福音</h2>
-            <h4>ご予約・お問い合わせ　
+            <h4 className='tell'>ご予約・お問い合わせ　
                 <FontAwesomeIcon icon={faPhone}/>
                 03-3544-5568
             </h4>

@@ -3,13 +3,11 @@
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
-    background-image: url('../fukune-photo/washi.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
 }
 
 .home-lunch{
+    position: relative;
+    left: 200px;
     width: 200px;
 }
 
@@ -20,7 +18,7 @@
 
 .home-lunch-image{
     position: relative;
-    left: 400px;
+    right: 70px;
     width: 350px;
     height: 350px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
@@ -28,5 +26,22 @@
 
 .home-lunch-p{
     position: relative;
-    left: 350px;
+    right: 90px;
+
+}
+
+.home-lunch-title{
+    position: relative;
+    right: 75px;
+}
+
+.home-dinner{
+    position: relative;
+    left: 1000px;
+}
+
+.home-dinner-image{
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
 }

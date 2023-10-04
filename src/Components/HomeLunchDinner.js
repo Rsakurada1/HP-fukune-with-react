@@ -1,9 +1,10 @@
 import React from 'react'
 import homeLunch from "../fukune-photo/home-lunch.jpg"
+import homeDinner from "../fukune-photo/home-dinner.jpg"
 import "./HomeLunchDinner.css"
 import { Link } from 'react-router-dom'
 
-const HomeLunch = () => {
+const HomeLunchDinner = () => {
   return (
     <div className='lunch-dinner'>
       <Link to="/Lunch">
@@ -13,8 +14,15 @@ const HomeLunch = () => {
         <p className='home-lunch-p'>　　雅、寿、特上<br/>　　　　三つのコースをご用意しております。</p>
       </div>
       </Link>
+      <Link to="/Dinner">
+        <div className='home-dinner'>
+          <h3>～ディナー～</h3>
+          <img className='home-dinner-image' src={homeDinner}/>
+          <p className='home-dinner-p'>　　　旬を知る、美味を知る。</p>
+        </div>
+      </Link>
     </div>
   )
 }
 
-export default HomeLunch
+export default HomeLunchDinner

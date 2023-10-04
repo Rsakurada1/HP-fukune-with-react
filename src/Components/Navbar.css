@@ -18,11 +18,15 @@ nav a:hover {
 }
 
 .storeName {
+    position: relative;
+    left: 300px;
+    top: 20px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
-.storeNameDiv{
-    text-align: center;
+.tell {
+    position: relative;
+    left: 1500px;
 }
