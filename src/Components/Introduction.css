@@ -45,6 +45,8 @@
 }
 
 .table {
+    position: relative;
+    top: 250px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -71,7 +73,7 @@
 
 .counter{
     position: relative;
-    top: -300px;
+    top: -250px;
     left: 410px;
     max-width: 420px;
     font-family: "kaisei-tokumin", sans-serif;
