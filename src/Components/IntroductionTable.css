@@ -1,0 +1,10 @@
+dt {
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+
+dd {
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 10px; 
+}

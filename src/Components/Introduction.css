@@ -1,0 +1,84 @@
+.I-image-div{
+    background-image: url('../fukune-photo/washi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 380px;
+}
+
+.I-image{
+    position: relative;
+    top: 15px;
+    left: 700px;
+    width: 500px;
+    height: 350px;
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 5s forwards;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+}
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+.table{
+    position: relative;
+    left: 1000px;
+    top: 100px;
+    max-width: 530px;
+}
+
+.Introduction{
+    width: 500px;
+    height: 700px;
+    position: relative;
+    top: -720px;
+    right: 600px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 5s forwards;
+}
+
+.table {
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 5s forwards;
+}
+
+.Map{
+    position: relative;
+    left: 450px;
+}
+
+.Map-div{
+    position: relative;
+    background-image: url("../fukune-photo/washi.jpg");
+}
+
+.zaseki-counter{
+    max-width: 400px;
+    max-height: 380px;
+}
+
+.counter{
+    position: relative;
+    top: -300px;
+    left: 410px;
+    max-width: 420px;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.c-h3{
+    position: relative;
+    left: 150px;
+}
