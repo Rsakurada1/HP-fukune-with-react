@@ -37,7 +37,7 @@
     height: 700px;
     position: relative;
     top: -720px;
-    right: 600px;
+    right: 700px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
     opacity: 0; 
     transform: translateY(50px); 
@@ -47,6 +47,7 @@
 .table {
     position: relative;
     top: 250px;
+    left: 1150px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
