@@ -5,6 +5,7 @@ import gaikan from "../fukune-photo/gaikan.jpg"
 import "./Introduction.css"
 import IntroductionTable from "./IntroductionTable"
 import zasekiCounter from "../fukune-photo/zaseki-counter2.jpg"
+import zashiki from "../fukune-photo/zasiki.jpg"
 
 const Introduction = () => {
   return (
@@ -17,15 +18,23 @@ const Introduction = () => {
         <IntroductionTable />
         <img className='Introduction' src={gaikan}/>
       </div>
-      <div>
+      <div className='I-seki'>
         <div className='counter'>
           <h3 className='c-h3'>カウンター</h3>
           <img className='zaseki-counter' src={zasekiCounter}/>
-          <h4>「一期一会」の旬を、匠の技と共に</h4>
+          <h4 className='c-title'>“「一期一会」の旬を、匠の技と共に“</h4>
           <p>
             店主の仕事が見える寿司屋の醍醐味であるカウンター席。12名様までご利用いただけます。カジュアルな接待や誕生日・記念日ディナー、デートの食事などにおすすめです。
             寿司を一貫一貫、ゆっくりと時間をかけてお召し上がりください。また、ご不明点やお好みなどございましたら、どうぞお気軽にお声がけください。
           </p>
+        </div>
+        <div className='zashiki'>
+          <h3 className='z-h3'>座敷</h3>
+          <img className='zaseki-zashiki' src={zashiki}/>
+          <h4 className='z-title'>“静寂の個室、贅沢なひと時を“</h4>
+          <p>当店の座敷は、和の心が息づく静かな個室で、外の世界を忘れさせ、穏やかな時間をもたらします。目の前に広がる季節の美食と、落ち着いた空間の中で、大切な方とのひとときを、より特別なものに。
+            ここでしか味わえない、至福の時間をお楽しみください。
+            </p>
         </div>
       </div>
         <div className='Map-div'>

@@ -48,6 +48,7 @@
     position: relative;
     top: 250px;
     left: 1150px;
+    max-height: 1100px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -74,7 +75,7 @@
 
 .counter{
     position: relative;
-    top: -250px;
+    top: 5px;
     left: 410px;
     max-width: 420px;
     font-family: "kaisei-tokumin", sans-serif;
@@ -85,4 +86,31 @@
 .c-h3{
     position: relative;
     left: 150px;
+}
+
+.zashiki{
+    position: relative;
+    left: 1000px;
+    top: -570px;
+    max-width: 420px;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.zaseki-zashiki{
+    max-width: 400px;
+    max-height: 380px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+}
+
+.I-seki{
+    position: relative;
+    max-height: 600px;
+    background-image: url(../fukune-photo/washi5.jpg);
+}
+
+.z-h3{
+    position: relative;
+    left: 180px;
 }
