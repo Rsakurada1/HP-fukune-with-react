@@ -1,0 +1,31 @@
+.lunch-top{
+    position: relative;
+    top: -19px;
+    background-image: url("../fukune-photo/washi3.jpg");
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lunch-title{
+    position: relative;
+    left: 800px;
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 5s forwards;
+}
+
+.lunch-message{
+    position: relative;
+    left: 630px;
+    opacity: 0; 
+    transform: translateY(50px); 
+    animation: fadeInUp 5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
