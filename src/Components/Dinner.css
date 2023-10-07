@@ -1,5 +1,6 @@
 .top {
-    margin-top: -18px;
+    position: relative;
+    height: 1500px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -8,18 +9,21 @@
 
 .dinner-title{
     position: relative;
-    left: 620px;
+    writing-mode: vertical-rl; 
+    left: 1120px;
     top: 100px;
-    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);opacity: 0;
+    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+    opacity: 0;
     transform: translateY(50px); 
     animation: fadeInUp 3s forwards;
 }
 
 .dinner-message{
     position: relative;
+    right: 300px;
     text-align: center;
-    left: 300px;
-    top: 330px;
+    top: 300px;
+    line-height: 35px;
     opacity: 0;
     transform: translateY(50px); 
     animation: fadeInUp 3s forwards;
@@ -27,17 +31,44 @@
 
 .coution-message{
     position: relative;
-    left: 900px;
-    top: 560px;
+    left: 100px;
+    top: 330px;
     opacity: 0;
     transform: translateY(80px); 
     animation: fadeInUp 15s forwards;
 }
 
+.dinner{
+    position: relative;
+    left: 330px;
+    top: 400px;
+    font-weight: 200px;
+}
+
+.dinner-price{
+    position: relative;
+    top: 400px;
+    left: 330px;
+    font-weight: 500;
+}
+
+.zei{
+    position: relative;
+    top: 350px;
+    left: 460px;
+}
+
+.price-option{
+    position: relative;
+    top: 290px;
+    left: 530px;
+    font-weight: 300;
+}
+
 .gaikanNight{
     position: relative;
-    left: 370px;
-    top: -60px;
+    left: 570px;
+    top: -980px;
     max-width: 500px;
     max-height: 600px;
     opacity: 0;
@@ -51,4 +82,48 @@
       opacity: 1; 
       transform: translateY(0); 
     }
+  }
+
+
+  .dinner-drink{
+    position: relative;
+    margin-top: -20px;
+    height: 800px;
+    background-image: url("../fukune-photo/washi.jpg");
+  }
+
+  .drinkimg {
+    position: relative;
+    left: 400px;
+    width: 463.5px;
+    top: -100px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+  }
+
+  .drinkimg2 {
+    position: relative;
+    left: 450px;
+    top: -100px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+  }
+
+  .drink {
+    position: relative;
+    left: 1450px;
+    top: 50px;
+    writing-mode: vertical-lr;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0.4, 0.4);
+  }
+
+  .drink-p{
+    position: relative;
+    left: 720px;
+    top: -50px;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 35px;
   }
