@@ -151,3 +151,18 @@
     position: relative;
     left: 250px;
   }
+
+  /* FadeInのアニメーション設定 */
+
+  /* 初期状態のスタイル */
+.lunchi1, .lunchi2, .lunchi3 {
+  opacity: 0;
+  transform: translateY(50px);  /* 50px下からスライドアップさせます */
+  transition: opacity 1s, transform 1s;  /* アニメーション時間を設定します */
+}
+
+/* isVisibleクラスが追加されたときのスタイル */
+.isVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
