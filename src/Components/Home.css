@@ -36,3 +36,16 @@
       transform: translateY(0); /* 元の位置に */
     }
   }
+
+  .home-slide{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: -28px;
+      height: 500px;
+      background-image: url('../fukune-photo/washi5.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; 
+  }

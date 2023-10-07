@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./SlideShow.css"
-import image1 from "../fukune-photo/naikan.jpg"
-import image2 from "../fukune-photo/maguro.jpg"
-import image3 from "../fukune-photo/uni.jpg"
 
-const images = [image1, image2, image3];
-
-const Slideshow = () => {
+const Slideshow = ({ images, className }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isEntering, setIsEntering] = useState(true);
 
@@ -22,10 +17,10 @@ const Slideshow = () => {
     }, 4000);  
 
     return () => clearTimeout(timeoutId);
-  }, [currentIndex]);
+  }, [currentIndex, images]);
 
   return (
-    <div className='slide-div'>
+    <div className={`slide-div ${className}`}>
       <img
         src={images[currentIndex]}
         alt="slideshow"

@@ -3,6 +3,11 @@ import Slideshow from './Slideshow'
 import "./Home.css"
 import Footer from './Footer';
 import HomeLunchDinner from './HomeLunchDinner';
+import image1 from "../fukune-photo/naikan.jpg"
+import image2 from "../fukune-photo/maguro.jpg"
+import image3 from "../fukune-photo/uni.jpg"
+
+
 
 const Home = () => {
   return (
@@ -19,7 +24,7 @@ const Home = () => {
         心からのおもてなしと、職人自慢のすしを心ゆくまでお楽しみください。築地で、そして東京で、これ以上ないほどの寿司体験をお約束します。
       </p>
       </div>
-    <Slideshow />
+    <Slideshow images={[image1, image2, image3]} className="home-slide"/>
     <HomeLunchDinner />
     <Footer />
     </div>
