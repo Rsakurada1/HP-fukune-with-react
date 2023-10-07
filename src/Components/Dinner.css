@@ -1,0 +1,54 @@
+.top {
+    margin-top: -18px;
+    font-family: "kaisei-tokumin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-image: url(../fukune-photo/washi5.jpg);
+}
+
+.dinner-title{
+    position: relative;
+    left: 620px;
+    top: 100px;
+    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);opacity: 0;
+    transform: translateY(50px); 
+    animation: fadeInUp 3s forwards;
+}
+
+.dinner-message{
+    position: relative;
+    text-align: center;
+    left: 300px;
+    top: 330px;
+    opacity: 0;
+    transform: translateY(50px); 
+    animation: fadeInUp 3s forwards;
+}
+
+.coution-message{
+    position: relative;
+    left: 900px;
+    top: 560px;
+    opacity: 0;
+    transform: translateY(80px); 
+    animation: fadeInUp 15s forwards;
+}
+
+.gaikanNight{
+    position: relative;
+    left: 370px;
+    top: -60px;
+    max-width: 500px;
+    max-height: 600px;
+    opacity: 0;
+    transform: translateY(50px); 
+    animation: fadeInUp 3s forwards;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+}
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
