@@ -1,6 +1,6 @@
 import React from 'react'
 import homeLunch from "../fukune-photo/home-lunch.jpg"
-import homeDinner from "../fukune-photo/home-dinner.jpg"
+import homeDinner from "../fukune-photo/dinner.jpg"
 import "./HomeLunchDinner.css"
 import { Link } from 'react-router-dom'
 

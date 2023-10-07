@@ -32,20 +32,122 @@
       transform: translateY(0); 
     }
   }
-
-  .lunchi2i{
-    width: 440px;
-    height: 340px;
-  }
-
+  
+  
+  /* ランチ雅css */
   .lunchi1i{
+    position: relative;
+    top: -80px;
     width: 440px;
     height: 340px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
   }
+
+  .lunchi1{
+    position: relative;
+    left: 500px;
+  }
+
+  .lunchi1h{
+    position: relative;
+    top: 50px;
+  }
+
+  .lunchi1-title{
+    position: relative;
+    left: 500px;
+    top: 200px;
+  }
+
+  .lunchi1-introduction{
+    position: relative;
+    left: 500px;
+    top: 210px;
+    max-width: 500px;
+  }
+
+  .lunchi1-price{
+    position: relative;
+    left: 250px;
+  }
+
+  .zei{
+    position: relative;
+    left: 320px;
+    top: -42px;
+  }
+
+  /* ランチ寿css */
+  .lunchi2i{
+    position: relative;
+    top: -80px;
+    width: 440px;
+    height: 340px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+  }
+
+  .lunchi2{
+      position: relative;
+      left: 500px;
+  }
+
+  .lunchi2h{
+    position: relative;
+    top: 50px;
+  }
+
+  .lunchi2-title{
+    position: relative;
+    left: 500px;
+    top: 200px;
+  }
+
+  .lunchi2-introduction{
+    position: relative;
+    left: 500px;
+    top: 210px;
+    max-width: 500px;
+  }
+
+  .lunchi2-price{
+    position: relative;
+    left: 250px;
+  }
+
+  /* ランチ特上css */
 
   .lunchi3i{
+    position: relative;
+    top: -80px;
     width: 440px;
     height: 340px;
+    box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
   }
 
-  
+  .lunchi3{
+    position: relative;
+    left: 500px;
+  }
+
+  .lunchi3h{
+  position: relative;
+  top: 50px;
+  }
+
+  .lunchi3-title{
+  position: relative;
+  left: 500px;
+  top: 200px;
+  }
+
+  .lunchi3-introduction{
+  position: relative;
+  left: 500px;
+  top: 210px;
+  max-width: 500px;
+  }
+
+  .lunchi3-price{
+    position: relative;
+    left: 250px;
+  }
