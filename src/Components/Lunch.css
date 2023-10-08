@@ -13,6 +13,7 @@
 .lunch-title{
     position: relative;
     left: 800px;
+    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
     opacity: 0; 
     transform: translateY(50px); 
     animation: fadeInUp 5s forwards;
@@ -37,7 +38,7 @@
   /* ランチ雅css */
   .lunchi1i{
     position: relative;
-    top: -80px;
+    top: -150px;
     width: 440px;
     height: 340px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
@@ -51,6 +52,7 @@
   .lunchi1h{
     position: relative;
     top: 50px;
+    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
   }
 
   .lunchi1-title{
@@ -71,16 +73,28 @@
     left: 250px;
   }
 
-  .zei{
+  .zei1{
     position: relative;
+    top: -43px;
     left: 320px;
-    top: -42px;
+  }
+
+  .zei2{
+    position: relative;
+    top: -43px;
+    left: 320px;
+  }
+
+  .zei3{
+    position: relative;
+    top: -41px;
+    left: 320px;
   }
 
   /* ランチ寿css */
   .lunchi2i{
     position: relative;
-    top: -80px;
+    top: -150px;
     width: 440px;
     height: 340px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
@@ -94,6 +108,7 @@
   .lunchi2h{
     position: relative;
     top: 50px;
+    text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
   }
 
   .lunchi2-title{
@@ -118,7 +133,7 @@
 
   .lunchi3i{
     position: relative;
-    top: -80px;
+    top: -150px;
     width: 440px;
     height: 340px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
@@ -132,6 +147,7 @@
   .lunchi3h{
   position: relative;
   top: 50px;
+  text-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
   }
 
   .lunchi3-title{
