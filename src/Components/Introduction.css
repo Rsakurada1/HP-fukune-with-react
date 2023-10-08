@@ -42,6 +42,7 @@
     opacity: 0; 
     transform: translateY(50px); 
     animation: fadeInUp 5s forwards;
+    cursor: default;
 }
 
 .table {
@@ -55,6 +56,7 @@
     opacity: 0; 
     transform: translateY(50px); 
     animation: fadeInUp 5s forwards;
+    cursor: default;
 }
 
 .Map{
@@ -81,11 +83,13 @@
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
+    cursor: default;
 }
 
 .c-h3{
     position: relative;
     left: 150px;
+    cursor: default;
 }
 
 .zashiki{
@@ -96,6 +100,7 @@
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
+    cursor: default;
 }
 
 .zaseki-zashiki{
@@ -113,4 +118,5 @@
 .z-h3{
     position: relative;
     left: 180px;
+    cursor: default;
 }

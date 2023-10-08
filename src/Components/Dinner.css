@@ -5,6 +5,7 @@
     font-weight: 700;
     font-style: normal;
     background-image: url(../fukune-photo/washi5.jpg);
+    cursor: default;
 }
 
 .dinner-title{
@@ -90,6 +91,7 @@
     margin-top: -20px;
     height: 800px;
     background-image: url("../fukune-photo/washi.jpg");
+    cursor: default;
   }
 
   .drinkimg {

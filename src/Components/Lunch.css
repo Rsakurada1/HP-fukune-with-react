@@ -2,12 +2,14 @@
     position: relative;
     top: -19px;
     background-image: url("../fukune-photo/washi3.jpg");
+    cursor: default;
 }
 
 .lunchi{
   font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
+    cursor: default;
 }
 
 .lunch-title{
