@@ -50,3 +50,31 @@
       background-position: center;
       background-size: cover; 
   }
+
+  /* ↓ケータイ↓ */
+  @media only screen and (max-width: 600px) {
+    .message{
+      max-width: 370px;
+      font-size: small;
+    }
+
+    .catch-p {
+      position: relative;
+      right: 510px;
+    }
+
+    .home-slide{
+      position: inherit;
+      max-width: 390px;
+  }
+
+  .home-slide img{
+    max-width: 360px;
+  }
+}
+  
+
+/* タブレット */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    
+  }

@@ -16,6 +16,12 @@
     color: black;
 }
 
+.dLink{
+    position: relative;
+    max-width: 350px;
+    left: 1000px;
+}
+
 .home-lunch-image{
     position: relative;
     right: 70px;
@@ -27,7 +33,6 @@
 .home-lunch-p{
     position: relative;
     right: 90px;
-
 }
 
 .home-lunch-title{
@@ -37,11 +42,52 @@
 
 .home-dinner{
     position: relative;
-    left: 1000px;
+    left: 50px;
 }
 
 .home-dinner-image{
     width: 350px;
     height: 350px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
+}
+
+/* ↓ケータイ↓ */
+@media only screen and (max-width: 600px) {
+    .lunch-dinner{
+        max-width: 380px;
+        height: 750px;
+    }
+
+    .lunch-dinner a{
+        max-width: 160px;
+    }
+
+    .home-lunch-image{
+        max-width: 280px;
+        max-height: 200px;
+        top: 80px;
+    }
+
+    .home-lunch{
+        left: 100px;
+    }
+
+    .home-lunch-title{
+        top: 60px;
+    }
+
+    .home-lunch-p{
+        right: 70px;
+        top: 50px;
+    }
+
+    .home-dinner-image{
+        max-width: 280px;
+        max-height: 200px;
+    }
+
+    .home-dinner{
+        top: 450px;
+        right: 753px;
+    }
 }

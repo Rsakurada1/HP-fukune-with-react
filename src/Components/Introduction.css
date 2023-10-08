@@ -25,13 +25,6 @@
     }
   }
 
-.table{
-    position: relative;
-    left: 1000px;
-    top: 100px;
-    max-width: 530px;
-}
-
 .Introduction{
     width: 500px;
     height: 700px;
@@ -50,6 +43,7 @@
     top: 250px;
     left: 1150px;
     max-height: 1100px;
+    max-width: 500px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -70,7 +64,7 @@
 }
 
 .zaseki-counter{
-    max-width: 400px;
+    width: 400px;
     max-height: 380px;
     box-shadow: 5px 5px 10px rgba(0.7, 0.5, 0, 0.7);
 }
@@ -79,7 +73,7 @@
     position: relative;
     top: 5px;
     left: 410px;
-    max-width: 420px;
+    width: 420px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -111,7 +105,7 @@
 
 .I-seki{
     position: relative;
-    max-height: 600px;
+    height: 600px;
     background-image: url(../fukune-photo/washi5.jpg);
 }
 
@@ -119,4 +113,77 @@
     position: relative;
     left: 180px;
     cursor: default;
+}
+
+@media only screen and (max-width: 600px) {
+    .I-image-div{
+        height: 250px;
+    }
+
+    .I-image{
+        left: 20px;
+        max-width: 350px;
+        height: 200px;
+    }
+    .Introduction{
+        max-width: 300px;
+        max-height: 350px;
+        top: -1050px;
+        right: -25px;
+    }
+
+    .table{
+        font-size: small;
+        max-width: 350px;
+        height: 1520px;
+        top: 500px;
+        left: 20px;
+    }
+
+    .I-seki{
+        max-width: 390px;
+        height: 1100px;
+    }
+
+    .I-seki h3 {
+        width: 100px;
+    }
+
+    .counter{
+        max-width: 380px;
+        font-size: small;
+        left: 20px;
+        top: 40px;
+    }
+
+    .zaseki-counter{
+        width: 350px;
+        height: 280px;
+    }
+
+    .counter p {
+        max-width: 350px;
+    }
+
+    .zaseki-zashiki{
+        width: 350px;
+        height: 280px;
+    }
+
+    .zashiki{
+        max-width: 380px;
+        font-size: small;
+        left: 20px;
+        top: 100px;
+    }
+
+    .zashiki p{
+        max-width: 350px;
+    }
+
+    .Map{
+        width: 350px;
+        height: 270px;
+        left: 25px;
+    }
 }

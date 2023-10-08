@@ -13,3 +13,19 @@
     background-size: cover;
     cursor: default;
   }
+
+  @media only screen and (max-width: 600px) {
+    .Footer-p{
+      max-width: 310px;
+    }
+
+    .Footer-p2{
+      max-width: 350px;
+    }
+
+    .Footer-p3{
+      position: relative;
+      max-width: 360px;
+      left: 50px;
+    }
+  }
