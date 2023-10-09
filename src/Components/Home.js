@@ -26,7 +26,9 @@ const Home = () => {
       </div>
     <Slideshow images={[image1, image2, image3]} className="home-slide"/>
     <HomeLunchDinner />
+    <div className='Footer-home'>
     <Footer />
+    </div>
     </div>
   )
 }

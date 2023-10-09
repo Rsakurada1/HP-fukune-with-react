@@ -56,11 +56,11 @@
     .message{
       max-width: 370px;
       font-size: small;
+      left: 10px;
     }
 
     .catch-p {
       position: relative;
-      right: 510px;
     }
 
     .home-slide{
@@ -70,6 +70,11 @@
 
   .home-slide img{
     max-width: 360px;
+  }
+
+  .Footer-home{
+    position: relative;
+    top: 90px;
   }
 }
   

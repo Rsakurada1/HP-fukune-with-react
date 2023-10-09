@@ -184,3 +184,112 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+
+@media only screen and (max-width: 600px) {
+  .lunch-title{
+    left: 60px;
+  }
+
+  .lunch-message{
+    max-width: 370px;
+    left: 10px;
+  }
+
+  .lunchi1i {
+    max-width: 300px;
+    max-height: 240px;
+    right: 455px;
+    top: -190px;
+  }
+
+  .lunchi img{
+    max-width: 300px;
+    max-height: 240px;
+  }
+
+  .lunchi1-price{
+    left: -270px;
+  }
+
+  .lunchi1h {
+    right: 500px;
+  }
+
+  .lunchi1-title{
+    top: 250px;
+    left: -430px;
+  }
+
+  .lunchi1-price{
+    right: 500px;
+  }
+
+  .zei1{
+    left: -200px;
+  }
+
+  .lunchi1-introduction{
+    left: -490px;
+    top: 250px;
+    max-width: 370px;
+  }
+
+  .lunchi2.isVisible{
+    left: 2px;
+  }
+
+  .lunchi2i{
+    left: 40px;
+    top: -190px;
+  }
+
+  .lunchi2-title{
+    left: 40px;
+    top: 240px;
+  }
+
+  .lunchi2-introduction{
+    max-width: 360px;
+    left: 10px;
+    top: 240px;
+  }
+
+  .lunchi2-price{
+    left: 240px;
+  }
+
+  .zei2{
+    left: 310px;
+  }
+
+  .lunchi3.isVisible{
+    left: 2px;
+  }
+
+  .lunchi3i{
+    left: 40px;
+    top: -190px;
+  }
+
+  .lunchi3-price{
+    left: 230px;
+  }
+
+  .zei3{
+    left: 300px;
+  }
+
+  .lunchi3-title{
+    left: 40px;
+    top: 240px;
+  }
+
+  .lunchi3-introduction{
+    max-width: 360px;
+    left: 10px;
+    top: 240px;
+  }
+
+
+}
