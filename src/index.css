@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* タブレット */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body{
+    zoom: 2;
+  };
+}
