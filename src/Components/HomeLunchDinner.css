@@ -56,6 +56,8 @@
     .lunch-dinner{
         max-width: 380px;
         height: 750px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .lunch-dinner a{
@@ -88,6 +90,7 @@
 
     .home-dinner{
         top: 450px;
-        right: 753px;
+        right: 761px;
+        max-height: 300px;
     }
 }

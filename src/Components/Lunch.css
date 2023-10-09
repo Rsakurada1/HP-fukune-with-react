@@ -187,8 +187,15 @@
 
 
 @media only screen and (max-width: 600px) {
+
+  .lunchi{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
   .lunch-title{
     left: 60px;
+    max-width: 300px;
   }
 
   .lunch-message{
@@ -196,43 +203,37 @@
     left: 10px;
   }
 
-  .lunchi1i {
-    max-width: 300px;
-    max-height: 240px;
-    right: 455px;
+  .lunchi1{
+    left: 2px;
+  }
+
+  .lunchi1i{
+    left: 40px;
     top: -190px;
+  }
+
+  .lunchi1-title{
+    left: 70px;
+    top: 240px;
+  }
+
+  .lunchi1-price{
+    max-width: 100px;
+  }
+
+  .zei1{
+    max-width: 70px;
+  }
+
+  .lunchi1-introduction{
+    max-width: 360px;
+    left: 15px;
+    top: 240px;
   }
 
   .lunchi img{
     max-width: 300px;
     max-height: 240px;
-  }
-
-  .lunchi1-price{
-    left: -270px;
-  }
-
-  .lunchi1h {
-    right: 500px;
-  }
-
-  .lunchi1-title{
-    top: 250px;
-    left: -430px;
-  }
-
-  .lunchi1-price{
-    right: 500px;
-  }
-
-  .zei1{
-    left: -200px;
-  }
-
-  .lunchi1-introduction{
-    left: -490px;
-    top: 250px;
-    max-width: 370px;
   }
 
   .lunchi2.isVisible{
@@ -257,10 +258,12 @@
 
   .lunchi2-price{
     left: 240px;
+    max-width: 100px;
   }
 
   .zei2{
     left: 310px;
+    max-width: 70px;
   }
 
   .lunchi3.isVisible{
@@ -274,10 +277,12 @@
 
   .lunchi3-price{
     left: 230px;
+    max-width: 100px;
   }
 
   .zei3{
     left: 300px;
+    max-width: 70px;
   }
 
   .lunchi3-title{

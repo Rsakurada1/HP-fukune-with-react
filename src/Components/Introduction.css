@@ -152,28 +152,51 @@
     .counter{
         max-width: 380px;
         font-size: small;
-        left: 20px;
+        left: 10px;
         top: 40px;
     }
 
     .zaseki-counter{
+        position: relative;
         width: 350px;
         height: 280px;
+        left: 10px;
+    }
+
+    .c-title{
+        position: relative;
+        max-width: 250px;
+        left: 70px;
     }
 
     .counter p {
         max-width: 350px;
+        position: relative;
+        left: 10px;
     }
 
     .zaseki-zashiki{
+        position: relative;
+        left: 10px;
         width: 350px;
         height: 280px;
+    }
+
+    .z-title{
+        position: relative;
+        max-width: 250px;
+        left: 90px;
+    }
+
+    .zashiki p{
+        position: relative;
+        left: 10px;
     }
 
     .zashiki{
         max-width: 380px;
         font-size: small;
-        left: 20px;
+        left: 10px;
         top: 100px;
     }
 
