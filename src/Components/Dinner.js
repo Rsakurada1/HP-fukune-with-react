@@ -9,7 +9,6 @@ import image1 from "../fukune-photo/maguro.jpg"
 import image2 from "../fukune-photo/dinner.jpg"
 import image3 from "../fukune-photo/dinner2.jpg"
 import image4 from "../fukune-photo/dinner3.jpg"
-import image5 from "../fukune-photo/dinner1.jpg"
 import image6 from "../fukune-photo/dinner4.jpg"
 
 const Dinner = () => {
@@ -34,7 +33,7 @@ const Dinner = () => {
             ※お席には限りがございますのでご予約の変更はお早めにご連絡ください。
           </p>
         <img className='gaikanNight' src={gaikanNight}/>
-        <Slideshow images={[image1, image2, image3, image4, image5, image6]} className="dinner-slide"/>
+        <Slideshow images={[image1, image2, image3, image4, image6]} className="dinner-slide"/>
       </div>
       <div className='dinner-drink'>
         <h2 className='drink'>日本酒も取り揃えております</h2>

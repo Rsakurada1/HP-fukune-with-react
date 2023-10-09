@@ -139,3 +139,69 @@
   .dinner-slide img{
     width: 350px;
   }
+
+  @media only screen and (max-width: 600px) {
+
+    .top{
+      height: 1800px;
+    }
+
+     .gaikanNight{
+      width: 270px;
+      height: 360px;
+      left: 50px;
+      top: -650px;
+     }
+
+     .dinner-title{
+      left: 100px;
+      top: 20px;
+     }
+
+     .dinner{
+        left: 20px;
+        font-size: larger;
+     }
+
+     .dinner-price{
+        left: 20px;
+        font-size: larger;
+     }
+
+     .zei{
+      left: 100px;
+      top: 360px;
+     }
+
+     .price-option{
+      left: 170px;
+      top: 320px;
+      font-size: larger;
+     }
+
+     .dinner-slide{
+      left: 10px;
+      top: -540px;
+     }
+
+     .dinner-slide img{
+      max-width: 370px;
+      max-height: 270px;
+     }
+
+     .dinner-message{
+      max-width: 370px;
+      font-size: smaller;
+      left: 10px;
+      top: 650px;
+      line-height: 25px;
+     }
+
+     .coution-message{
+      font-size: smaller;
+      top: 700px;
+      left: 10px;
+      max-width: 300px;
+     }
+
+  }
