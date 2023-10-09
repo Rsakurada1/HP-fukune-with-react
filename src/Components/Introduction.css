@@ -43,7 +43,7 @@
     top: 250px;
     left: 1150px;
     max-height: 1100px;
-    max-width: 500px;
+    width: 500px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -134,7 +134,7 @@
 
     .table{
         font-size: small;
-        max-width: 350px;
+        width: 350px;
         height: 1520px;
         top: 500px;
         left: 20px;
@@ -240,6 +240,7 @@
     .table{
        left: 980px;
        font-size: 30px;
+       width: 600px;
     }
 
     .I-seki{
@@ -247,6 +248,8 @@
         height: 1200px;
         width: 1650px;
         font-size: 30px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .counter{

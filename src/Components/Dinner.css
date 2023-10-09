@@ -237,3 +237,89 @@
       top: -100px;
      }
   }
+
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .top{
+      width: 1650px;
+      font-size: 20px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+
+    .dinner-title{
+      font-size: 30px;
+    }
+
+    .gaikanNight{
+      top: -1350px;
+    }
+
+    .dinner{
+      top: 100px;
+      width: 600px;
+    }
+
+    .dinner-price{
+      width: 200px;
+      top: 90px;
+    }
+
+    .zei{
+      top: 30px;
+      left: 500px;
+      width: 100px;
+    }
+
+    .price-option{
+      top: -45px;
+      left: 600px;
+      width: 100px;
+    }
+
+    .dinner-message{
+      top: -10px;
+      left: -210px;
+      font-size: 30px;
+    }
+
+    .coution-message{
+      top: -10px;
+      left: 20px;
+      width: 800px;
+    }
+
+    .dinner-slide{
+      top: -1000px;
+      left: 1200px;
+    }
+
+    .dinner-drink{
+      width: 1650px;
+      height: 700px;
+    }
+
+    .drink-p{
+      font-size: 30px;
+      left: 450px;
+      top: -230px;
+      width: 900px;
+    }
+
+    .drink{
+      font-size: 30px;
+    }
+
+    .drinkimg{
+      top: -280px;
+      left: 300px;
+    }
+
+    .drinkimg2{
+      top: -280px;
+      left: 400px;
+    }
+
+    .dinner-Footer{
+      width: 1650px;
+    }
+  }

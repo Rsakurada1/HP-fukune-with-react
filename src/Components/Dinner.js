@@ -44,7 +44,9 @@ const Dinner = () => {
           銘柄などはお気軽にお尋ねください。
         </p>
       </div>
+      <div className='dinner-Footer'>
       <Footer />
+      </div>
     </div>
   )
 }

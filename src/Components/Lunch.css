@@ -301,17 +301,21 @@
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .lunch-top{
       width: 1650px;
-      height: 300px;
+      height: 320px;
       font-size: 30px;
-      top: -35px;
+      top: 5px;
+      overflow-x: hidden;
+      overflow-y: hidden;
     }
 
     .lunch-title{
       left: 580px;
+      width: 500px;
     }
 
     .lunch-message{
       left: 200px;
+      width: 1400px;
     }
 
     .lunchi1i{
@@ -412,5 +416,4 @@
     .Lunch-Footer{
       width: 1650px;
     }
-
 }
