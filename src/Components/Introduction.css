@@ -90,7 +90,7 @@
     position: relative;
     left: 1000px;
     top: -570px;
-    max-width: 420px;
+    width: 420px;
     font-family: "kaisei-tokumin", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -194,7 +194,7 @@
     }
 
     .zashiki{
-        max-width: 380px;
+        width: 380px;
         font-size: small;
         left: 10px;
         top: 100px;
@@ -212,5 +212,75 @@
 
     .z-h3{
         left: 160px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .Introduction-div{
+        height: 4600px;
+    }
+
+    .I-image-div{
+        width: 1650px;
+    }
+
+    .I-image{
+        position: relative;
+        left: 550px;
+    }
+
+    .Introduction{
+        width: 700px;
+        height: 900px;
+        top: -1050px;
+        left: -810px;
+    }
+
+    .table{
+       left: 980px;
+       font-size: 30px;
+    }
+
+    .I-seki{
+        top: 500px;
+        height: 1200px;
+        width: 1650px;
+        font-size: 30px;
+    }
+
+    .counter{
+        top: 200px;
+        left: 150px;
+        width: 600px;
+    }
+
+    .counter img{
+        position: relative;
+        left: 60px;
+    }
+
+    .zashiki{
+        left: 950px;
+        top: -700px;
+        width: 600px;
+    }
+
+    .Map-div{
+        top: 500px;
+        height: 800px;
+        width: 1650px;
+    }
+
+    .Map{
+        left: 150px;
+        top: 5px;
+        zoom: 1.3;
+    }
+
+    .I-Footer{
+        position: relative;
+        top: 500px;
+        width: 1650px;
     }
 }

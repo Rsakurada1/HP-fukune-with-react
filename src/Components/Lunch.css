@@ -295,6 +295,122 @@
     left: 10px;
     top: 240px;
   }
+}
 
+/* タブレット */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .lunch-top{
+      width: 1650px;
+      height: 300px;
+      font-size: 30px;
+      top: -35px;
+    }
+
+    .lunch-title{
+      left: 580px;
+    }
+
+    .lunch-message{
+      left: 200px;
+    }
+
+    .lunchi1i{
+      top: -400px;
+    }
+
+    .lunchi1-price{
+      top: -40px;
+      left: 350px;
+    }
+
+    .zei1{
+      top: -120px;
+      left: 470px;
+    }
+
+    .lunchi img{
+      width: 600px;
+      height: 500px;
+    }
+
+    .lunchi1-title{
+      left: 700px;
+      top: -50px;
+    }
+
+    .lunchi1-introduction{
+      left: 700px;
+      top: -10px;
+    }
+
+    .lunchi1.isVisible{
+      font-size: 30px;
+      left: 255px;
+    }
+
+    /* 寿 */
+
+    .lunchi2i{
+      top: -480px;
+    }
+
+    .lunchi2-price{
+      top: -40px;
+      left: 400px;
+    }
+
+    .zei2{
+      top: -120px;
+      left: 520px;
+    }
+
+    .lunchi2-title{
+      left: 700px;
+      top: -50px;
+    }
+
+    .lunchi2-introduction{
+      left: 700px;
+      top: -10px;
+    }
+
+    .lunchi2.isVisible{
+      font-size: 30px;
+      left: 255px;
+    }
+
+    /* 特上 */
+    .lunchi3i{
+      top: -480px;
+    }
+
+    .lunchi3-price{
+      top: -40px;
+      left: 420px;
+    }
+
+    .zei3{
+      top: -120px;
+      left: 540px;
+    }
+
+    .lunchi3-title{
+      left: 700px;
+      top: -50px;
+    }
+
+    .lunchi3-introduction{
+      left: 700px;
+      top: -10px;
+    }
+
+    .lunchi3.isVisible{
+      font-size: 30px;
+      left: 255px;
+    }
+
+    .Lunch-Footer{
+      width: 1650px;
+    }
 
 }

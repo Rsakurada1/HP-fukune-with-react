@@ -9,7 +9,7 @@ import zashiki from "../fukune-photo/zasiki.jpg"
 
 const Introduction = () => {
   return (
-    <div>
+    <div className='Introduction-div'>
       <div className='I-image-div'>
         <img className='I-image' src={noren} alt="Noren"/>
       </div>
@@ -47,7 +47,9 @@ const Introduction = () => {
           referrerpolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
+        <div className='I-Footer'>
       <Footer />
+      </div>
     </div>
   )
 }

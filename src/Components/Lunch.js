@@ -79,7 +79,9 @@ const Lunch = () => {
         <h4 className='lunchi3-introduction'>最上級コース「特上」では、最高品質の食材を惜しみなく使用し、寿司職人の技が煌めく極上の味わいを提供いたします。特別な時間を、特別なお寿司と共に。</h4>
           <img className='lunchi3i' src={lunchi3}/>
         </div>
+        <div className='Lunch-Footer'>
       <Footer />
+      </div>
     </div>
   )
 }
