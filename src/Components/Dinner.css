@@ -204,4 +204,34 @@
       max-width: 300px;
      }
 
+     .dinner-drink{
+      width: 390px;
+      height: 800px;
+     }
+
+     .dinner-drink img{
+      width: 320px;
+      height: 250px;
+     }
+
+     .drink{
+      left: 335px;
+      font-size: larger;
+     }
+
+     .drinkimg{
+      top: -180px;
+      left: 20px;
+     }
+
+     .drinkimg2{
+      top: -120px;
+      left: 20px;
+     }
+
+     .drink-p{
+      max-width: 310px;
+      left: 40px;
+      top: -100px;
+     }
   }
