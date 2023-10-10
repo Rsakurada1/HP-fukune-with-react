@@ -152,7 +152,7 @@
       width: 270px;
       height: 360px;
       left: 50px;
-      top: -650px;
+      top: -635px;
      }
 
      .dinner-title{
@@ -161,6 +161,8 @@
      }
 
      .dinner{
+        width: 256px;
+        top: 415px;
         left: 20px;
         font-size: larger;
      }
@@ -183,7 +185,7 @@
 
      .dinner-slide{
       left: 10px;
-      top: -540px;
+      top: -530px;
      }
 
      .dinner-slide img{

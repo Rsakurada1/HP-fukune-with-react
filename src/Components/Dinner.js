@@ -15,7 +15,7 @@ const Dinner = () => {
   return (
     <div>
       <div className='top'>
-        <h3 className='dinner-title'>夜のひととき、<br /><br />　　至極の おまかせコース で<br /><br />　　　　　　心を込めておもてなしいたします</h3>
+        <h3 className='dinner-title'>夜のひととき<br /><br />　　至極の おまかせコース で<br /><br />　　　　　　心を込めておもてなしいたします</h3>
         <h2 className='dinner'>ディナーはコースで承ります</h2>
         <h1 className='dinner-price'>15,000円</h1>
         <p className='zei'>（税込）</p>
