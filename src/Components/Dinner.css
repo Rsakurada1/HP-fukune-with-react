@@ -149,8 +149,6 @@
 
     .top{
       height: 1800px;
-      overflow-x: hidden;
-      overflow-y: hidden;
     }
 
      .gaikanNight{
@@ -173,16 +171,19 @@
      }
 
      .dinner-price{
+      width: 200px;
         left: 20px;
         font-size: larger;
      }
 
      .zei{
+      width: 100px;
       left: 100px;
       top: 360px;
      }
 
      .price-option{
+      width: 50px;
       left: 170px;
       top: 320px;
       font-size: larger;
@@ -224,6 +225,7 @@
      }
 
      .drink{
+      width: 10px;
       left: 335px;
       font-size: larger;
      }

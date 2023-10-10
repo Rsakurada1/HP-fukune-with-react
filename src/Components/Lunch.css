@@ -173,19 +173,23 @@
   /* FadeInのアニメーション設定 */
 
   /* 初期状態のスタイル */
-.lunchi1, .lunchi2, .lunchi3 {
+
+
+/* .lunchi1, .lunchi2, .lunchi3 {
   opacity: 0;
-  transform: translateY(50px);  /* 50px下からスライドアップさせます */
-  transition: opacity 1s, transform 1s;  /* アニメーション時間を設定します */
-}
+  transform: translateY(50px);  
+  transition: opacity 1s, transform 1s;  
+} */
+
 
 /* isVisibleクラスが追加されたときのスタイル */
-.isVisible {
+
+/* .isVisible {
   opacity: 1;
   transform: translateY(0);
 }
 
-
+ */
 @media only screen and (max-width: 600px) {
 
   .lunchi h3 {
@@ -235,7 +239,7 @@
     max-height: 240px;
   }
 
-  .lunchi2.isVisible{
+  .lunchi2{
     left: 2px;
   }
 
@@ -265,7 +269,7 @@
     max-width: 70px;
   }
 
-  .lunchi3.isVisible{
+  .lunchi3{
     left: 2px;
   }
 
