@@ -19,6 +19,11 @@
     animation: fadeInUp 3s forwards;
 }
 
+.vertical-dash{
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
 .dinner-message{
     position: relative;
     right: 300px;
