@@ -18,7 +18,7 @@
 
 .dLink{
     position: relative;
-    max-width: 350px;
+    width: 350px;
     left: 1000px;
 }
 
@@ -56,30 +56,39 @@
     .lunch-dinner{
         max-width: 380px;
         height: 750px;
-        overflow-x: hidden;
-        overflow-y: hidden;
     }
 
-    .lunch-dinner a{
-        max-width: 160px;
+    .lunch-dinner h3 {
+        text-shadow: 5px 5px 10px rgba(0, 0, 0.4, 0.7);
     }
 
     .home-lunch-image{
         max-width: 280px;
         max-height: 200px;
         top: 80px;
+        right: -5px;
+    }
+
+    .Llink{
+        display: inline-block;
+        width: 280px;
+        height: 200px;
     }
 
     .home-lunch{
-        left: 100px;
+        left: 20px;
+        width: 330px;
+        height: 360px;
     }
 
     .home-lunch-title{
+        position: relative;
         top: 60px;
+        right: 5px;
     }
 
     .home-lunch-p{
-        right: 70px;
+        right: -15px;
         top: 50px;
     }
 
@@ -89,8 +98,15 @@
     }
 
     .home-dinner{
-        top: 450px;
-        right: 761px;
         max-height: 300px;
+        right: -175px;
+    }
+
+    .dLink{
+        display: inline-block;
+        left: 190px;
+        top: 500px;
+        width: 300px;
+        height: 280px;
     }
 }

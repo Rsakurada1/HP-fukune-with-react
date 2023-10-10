@@ -188,9 +188,8 @@
 
 @media only screen and (max-width: 600px) {
 
-  .lunchi{
-    overflow-x: hidden;
-    overflow-y: hidden;
+  .lunchi h3 {
+    width: 320px;
   }
 
   .lunch-title{
