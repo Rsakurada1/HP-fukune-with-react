@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from 'react'
 import "./Lunch.css"
 import Footer from "./Footer"
 import lunchi1 from "../fukune-photo/lunch1.jpg"
@@ -61,7 +60,7 @@ const Lunch = () => {
           <p className='zei1'>（税込）</p>
           <h3 className='lunchi1-title'>やさしい価格で、極上の味を</h3>
           <h4 className='lunchi1-introduction'>入門となる「雅」コースでは、厳選された新鮮なネタを使用し、職人が一貫一貫丁寧に握ります。ここから始まる、寿司の旅を心ゆくまでご堪能ください。</h4>
-          <img className='lunchi1i' src={lunchi1}/>
+          <img className='lunchi1i' src={lunchi1} alt="雅の画像" />
         </div>
         <div className='lunchi2'>
         <h2 className='lunchi2h'>『寿』-Kotobuki-</h2>
@@ -69,7 +68,7 @@ const Lunch = () => {
         <p className='zei2'>（税込）</p>
         <h3 className='lunchi2-title'>バラエティに富んだ、楽しい逸品を</h3>
         <h4 className='lunchi2-introduction'>「寿」コースでは、基本のラインナップに加え、さらにバラエティ豊かな逸品をご堪能いただけます。季節の食材を活かした、彩り鮮やかな一皿をお楽しみください。</h4>
-          <img className='lunchi2i' src={lunchi2}/>
+          <img className='lunchi2i' src={lunchi2} alt="寿の画像"/>
         </div>
         <div className='lunchi3'>
         <h2 className='lunchi3h'>『特上』-Tokujou-</h2>
@@ -77,7 +76,7 @@ const Lunch = () => {
         <p className='zei3'>（税込）</p>
         <h3 className='lunchi3-title'>究極の贅沢、一期一会の味わいを</h3>
         <h4 className='lunchi3-introduction'>最上級コース「特上」では、最高品質の食材を惜しみなく使用し、寿司職人の技が煌めく極上の味わいを提供いたします。特別な時間を、特別なお寿司と共に。</h4>
-          <img className='lunchi3i' src={lunchi3}/>
+          <img className='lunchi3i' src={lunchi3} alt="特上の画像" />
         </div>
         <div className='Lunch-Footer'>
       <Footer />
