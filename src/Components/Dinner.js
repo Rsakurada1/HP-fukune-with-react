@@ -17,9 +17,9 @@ const Dinner = () => {
       <div className='top'>
         <h3 className='dinner-title'>夜のひととき<br /><br />　至極のおまかせコースで<br /><br />　　心を込めておもてなしいたします</h3>
         <h2 className='dinner'>ディナーはコースで承ります</h2>
-        <h1 className='dinner-price'>料金は一度お電話でご確認ください</h1>
-        <p className='zei'>　　　</p>
-        <h1 className='price-option'>　　　</h1>
+        <h1 className='dinner-price'>18,000円 ～</h1>
+        <p className='zei'>　　　※前後する場合がございます</p>
+        <h1 className='price-option'>　　</h1>
         <p className='dinner-message'>深夜の静けさと共に、当店では、お客様一人一人に丁寧なおもてなしを心がけています。<br />ディナータイムには、「おまかせコース」をご用意しております。<br />
           ディナーでは、丁寧に選ばれた旬の食材を使用し、<br />職人自らが腕によりをかけた7品をご堪能いただけます。<br />
           お料理と共に、厳選された日本酒もご用意しております。<br />
