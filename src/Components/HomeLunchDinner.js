@@ -11,12 +11,12 @@ const HomeLunchDinner = () => {
       <div className='home-lunch'>
         <h3 className='home-lunch-title'>ランチ</h3>
         <img className='home-lunch-image' src={homeLunch} />
-        <p className='home-lunch-p'>　　雅・寿・特上<br/>　　　　三つのコ<span class="vertical-dash">ー</span>スをご用意しております</p>
+        <p className='home-lunch-p'>　　雅・寿・特上<br/>　　　　三つのコースをご用意しております</p>
       </div>
       </Link>
       <Link to="/Dinner" className='dLink'>
         <div className='home-dinner'>
-          <h3>ディナ<span class="vertical-dash">ー</span></h3>
+          <h3>ディナー</h3>
           <img className='home-dinner-image' src={homeDinner}/>
           <p className='home-dinner-p'>　　　旬を知る　美味を知る</p>
         </div>

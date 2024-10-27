@@ -15,11 +15,11 @@ const Dinner = () => {
   return (
     <div>
       <div className='top'>
-        <h3 className='dinner-title'>夜のひととき<br /><br />　至極のおまかせコ<span class="vertical-dash">ー</span>スで<br /><br />　　心を込めておもてなしいたします</h3>
+        <h3 className='dinner-title'>夜のひととき<br /><br />　至極のおまかせコースで<br /><br />　　心を込めておもてなしいたします</h3>
         <h2 className='dinner'>ディナーはコースで承ります</h2>
-        <h1 className='dinner-price'>15,000円</h1>
-        <p className='zei'>（税込）</p>
-        <h1 className='price-option'>～</h1>
+        <h1 className='dinner-price'>料金は一度お電話でご確認ください</h1>
+        <p className='zei'>　　　</p>
+        <h1 className='price-option'>　　　</h1>
         <p className='dinner-message'>深夜の静けさと共に、当店では、お客様一人一人に丁寧なおもてなしを心がけています。<br />ディナータイムには、「おまかせコース」をご用意しております。<br />
           ディナーでは、丁寧に選ばれた旬の食材を使用し、<br />職人自らが腕によりをかけた7品をご堪能いただけます。<br />
           お料理と共に、厳選された日本酒もご用意しております。<br />
@@ -29,7 +29,7 @@ const Dinner = () => {
           贅沢なひとときを、当店で過ごしていただければ幸いです。</p>
           <p className='coution-message'>
             ※お好みやアレルギーなどは気軽にお問い合わせください。<br />
-            ※ご予約は電話のみで承っております。<br />
+            ※ご予約は電話でも承っております。<br />
             ※お席には限りがございますのでご予約の変更はお早めにご連絡ください。
           </p>
         <img className='gaikanNight' src={gaikanNight}/>

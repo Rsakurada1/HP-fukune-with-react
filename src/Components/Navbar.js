@@ -15,6 +15,7 @@ const Navbar = () => {
                 03-3544-5568
             </h4>
         </div>
+        <link rel="icon" href="/public/favicon.ico" />
     <nav>
         <Link to="/">
             <FontAwesomeIcon icon={faHome} />
